@@ -89,8 +89,7 @@ hr {
     color: #c5c5c5;
     background-color: currentColor;
     border: 0;
-    height: 10px;
-    max-width: 300px;
+    height: 5px;
 }
 
 .h1,
@@ -127,7 +126,7 @@ hr {
 
 .h2,
 h2 {
-    font-size: calc(2.03rem + .9vw);
+    font-size: calc(1.325rem + .9vw);
     color: #c5c5c5;
     text-align: right;
 }
