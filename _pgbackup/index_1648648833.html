@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:40000/index.html -->
+<html lang="en"><script>
+(() => {
+/**
+ * This script injected by the installed three.js developer
+ * tools extension.
+ * https://github.com/threejs/three-devtools
+ */
+
+const $devtoolsReady = Symbol('devtoolsReady');
+const $backlog = Symbol('backlog');
+
+// The __THREE_DEVTOOLS__ target is small and light-weight, and collects
+// events triggered until the devtools panel is ready, which is when
+// the events are flushed.
+const target = new class ThreeDevToolsTarget extends EventTarget {
+  constructor() {
+    super();
+    this[$devtoolsReady] = false;
+    this[$backlog] = [];
+    this.addEventListener('devtools-ready', e => {
+      this[$devtoolsReady] = true;
+      for (let event of this[$backlog]) {
+        this.dispatchEvent(event);
+      }
+    }, { once: true });
+  }
+
+  dispatchEvent(event) {
+    if (this[$devtoolsReady] || event.type === 'devtools-ready') {
+      super.dispatchEvent(event);
+    } else {
+      this[$backlog].push(event);
+    }
+  }
+}
+
+Object.defineProperty(window, '__THREE_DEVTOOLS__', {
+  value: target,
+});
+})();
+</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Blank Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="./index_files/style.css" rel="stylesheet">
+    </head>
+    <body style="background-color: #181818; padding-top: 20px; padding-left: 15px; padding-right: 15px;">
+        <div class="container" style="padding: 15px; border-radius: 10px; box-shadow: inset -9px 11px 9px -10px rgba(255, 255, 255, 0.25);">
+            <div class="pg-empty-placeholder" style="background-image: url(&#39;assets/img/profile%20photo-3.jpg&#39;); background-position: center center; background-size: cover; border-radius: 10px; min-height: 300px; max-width: 500px;" id="profile-photo"></div>
+            <div id="general-info">
+                <h1>Leonardo Colombo</h1>
+                <h2>Web &amp; Design</h2>
+            </div>
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="./index_files/popper.min.js.download"></script>
+        <script src="./index_files/bootstrap.min.js.download"></script>
+    
+
+</body></html>
