@@ -86,10 +86,14 @@ body {
 
 hr {
     margin: 1rem 0;
-    color: #c5c5c5;
+    color: inherit;
     background-color: currentColor;
     border: 0;
-    height: 5px;
+    opacity: .25;
+}
+
+hr:not([size]) {
+    height: 1px;
 }
 
 .h1,
@@ -112,15 +116,14 @@ hr {
 
 .h1,
 h1 {
-    font-size: calc(3.38rem + 1.5vw);
+    font-size: calc(1.375rem + 1.5vw);
     color: #c5c5c5;
-    font-weight: bolder;
 }
 
 @media (min-width:1200px){
     .h1,
                     h1 {
-        font-size: 8.9rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -128,7 +131,6 @@ hr {
 h2 {
     font-size: calc(1.325rem + .9vw);
     color: #c5c5c5;
-    text-align: right;
 }
 
 @media (min-width:1200px){
