@@ -1,11 +1,11 @@
-#whoiam {
+#CornerColored1 {
     position: relative;
 }
 
-#whoiam:before,
-#whoiam:after,
-#whoiam>:first-child:before,
-#whoiam>:first-child:after {
+#CornerColored1:before,
+#CornerColored1:after,
+#CornerColored1>:first-child:before,
+#CornerColored1>:first-child:after {
     position: absolute;
     content: ' ';
     width: 30px;
@@ -18,25 +18,25 @@
     /* or whatever style */
 }
 
-#whoiam:before {
+#CornerColored1:before {
     top: 0;
     left: 0;
     border-width: 5px 0 0 5px;
 }
 
-#whoiam:after {
+#CornerColored1:after {
     top: 0;
     right: 0;
     border-width: 5px 5px 0 0;
 }
 
-#whoiam>:first-child:before {
+#CornerColored1>:first-child:before {
     bottom: 0;
     right: 0;
     border-width: 0 5px 5px 0;
 }
 
-#whoiam>:first-child:after {
+#CornerColored1>:first-child:after {
     bottom: 0;
     left: 0;
     border-width: 0 0 5px 5px;
