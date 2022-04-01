@@ -179,7 +179,7 @@ hr {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-family: 'Sora', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     color: #c5c5c5;
     font-size: calc(0.9rem + 1.5vw);
 }
