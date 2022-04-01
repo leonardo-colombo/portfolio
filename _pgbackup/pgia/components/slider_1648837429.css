@@ -54,6 +54,10 @@
     margin-bottom: 0;
 }
 
+.pgia-slide:nth-child(even) {
+    background: linear-gradient(90deg, #ED4264, #FFEDBC);
+}
+
 .pgia-slider[data-slider-direction="vertical"] .pgia-controls {
     position: absolute;
     right: 2rem;
