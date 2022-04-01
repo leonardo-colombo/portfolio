@@ -42,27 +42,23 @@
                 <div class="pgia-slides-container" data-pg-ia-scene='{"s":"whole","snap":"e","pag":"p","pag_t":".pgia-slide","pag_i":"^.pgia-slider|.pgia-pagination-item","pag_clone":"true","pag_pa":"Current","pag_pd":"-Current","pag_inf":"true","dir":"a"}' style="overflow: hidden;">
                     <div class="pgia-slide" data-pg-ia='{"l":[{"trg":"no","a":{"l":[{"t":"h2","l":[{"t":"tween","p":0.4,"d":0.6,"l":{"autoAlpha":1},"e":"Linear.easeNone"}]}],"desc":"Show the content of the slide. Customize this animation to reveal the content."},"rstr":"true","po":"true","pol":"HideContent","name":"ShowContent"},{"name":"HideContent","trg":"no","a":{"l":[{"t":"h2","l":[{"t":"tween","p":0,"d":0.1,"l":{"autoAlpha":0}}]}],"desc":"Hide the content of the slide. Customize this animation to reveal the content."},"rstr":"true","po":"true","pol":"ShowContent"}]}' data-pg-ia-scene='{"dir":"a","s":"custom","s_t":"start","s_s":"end","e_t":"end","e_s":"start","l":[{"a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"HideContent"}}},{"t":"tween","p":0.5,"d":9,"l":{"pgia":{"play":"ShowContent"}}},{"t":"tween","p":9.5,"d":0.5,"l":{"pgia":{"play":"HideContent"}}}]}]},"p":"scroll","sc_dir":"up_down","rep":"true"}]}' data-pg-ia-apply="^.pgia-slider|.pgia-slide">
                         <p>Team working</p>
-                        <p>ParagraphLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est.</p>
                     </div>
                     <div class="pgia-slide">
-                        <p>Web Marketing</p>
-                        <p>ParagraphLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est.</p>
+                        <h2 data-pg-ia-hide class="placeholder">Slide 2</h2>
                     </div>
                     <div class="pgia-slide">
-                        <p>Graphic Design</p>
-                        <p>ParagraphLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est.</p>
+                        <h2 data-pg-ia-hide class="placeholder">Slide 3</h2>
                     </div>
                     <div class="pgia-slide">
-                        <p>Team working</p>
-                        <p>ParagraphLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est.</p>
+                        <h2 data-pg-ia-hide class="placeholder">Slide 4</h2>
                     </div>
                 </div>
-                <div class="invisible pgia-controls">
-                    <a class="prev pgia-control" href="#" data-scroll-to="prev" data-pg-ia='{"l":[{"name":"ScrollTo","trg":"click","a":{"l":[{"t":"^.pgia-slider","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"Goto${target.data-scroll-to}"}}}]}]},"pdef":"true"}]}' data-pg-ia-apply="^.pgia-slider|.pgia-control">&lsaquo;</a>
-                    <div class="pgia-pagination">
-                        <a class="pgia-pagination-item" href="#" data-pg-ia='{"l":[{"name":"ScrollToSlide","trg":"click","a":{"l":[{"t":"^.pgia-slider|.pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"page"}}}]}]},"pdef":"true"},{"trg":"no","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.2,"l":{"scale":1.5}}]}],"desc":"Customize the active item animation."},"name":"Current"}]}'></a>
-                    </div>
-                    <a class="next pgia-control" href="#" data-scroll-to="next">&rsaquo;</a>
+                <div class="pgia-controls"><a class="prev pgia-control" href="#" data-scroll-to="prev" data-pg-ia='{"l":[{"name":"ScrollTo","trg":"click","a":{"l":[{"t":"^.pgia-slider","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"Goto${target.data-scroll-to}"}}}]}]},"pdef":"true"}]}' data-pg-ia-apply="^.pgia-slider|.pgia-control">&lsaquo;</a>
+                    <div class="pgia-pagination"><a class="pgia-pagination-item" href="#" data-pg-ia='{"l":[{"name":"ScrollToSlide","trg":"click","a":{"l":[{"t":"^.pgia-slider|.pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"page"}}}]}]},"pdef":"true"},{"trg":"no","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.2,"l":{"scale":1.5}}]}],"desc":"Customize the active item animation."},"name":"Current"}]}'></a>
+                    </div><a class="next pgia-control" href="#" data-scroll-to="next">&rsaquo;</a>
+                </div>
+                <div class="pgia-progress">
+                    <div class="pgia-progress-bar"></div>
                 </div>
             </div>
         </section>
