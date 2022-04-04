@@ -7886,8 +7886,6 @@ textarea.form-control-lg {
 
 .min-vh-100 {
     min-height: 100vh!important;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .flex-fill {
