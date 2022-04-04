@@ -24,9 +24,7 @@
 }
 
 .pgia-slider[data-slider-scrollbar="auto"] .pgia-slides-container[data-pg-id] {
-    overflow: hidden;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    overflow: auto;
 }
 
 .pgia-slider[data-slider-scrollbar="pg"] .pgia-slides-container[data-pg-id] {
@@ -38,18 +36,16 @@
 }
 
 .pgia-slide {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     flex-basis: 100%;
     flex-grow: 0;
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
     background: linear-gradient(90deg, #74ebd5, #ACB6E5);
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 15px;
-    border-radius: 15px;
-    display: flex;
 }
 
 .pgia-slide h2.placeholder {
