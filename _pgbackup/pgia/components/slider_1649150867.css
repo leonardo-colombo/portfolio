@@ -25,6 +25,8 @@
 
 .pgia-slider[data-slider-scrollbar="auto"] .pgia-slides-container[data-pg-id] {
     overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .pgia-slider[data-slider-scrollbar="pg"] .pgia-slides-container[data-pg-id] {
@@ -46,10 +48,10 @@
     align-items: flex-start;
     justify-content: flex-end;
     padding: 15px;
+    border-radius: 15px;
     display: flex;
     margin-bottom: 20px;
     margin-top: 20px;
-    border-radius: 15px;
 }
 
 .pgia-slide h2.placeholder {
