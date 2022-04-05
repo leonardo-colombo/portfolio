@@ -25,8 +25,8 @@
 
 .pgia-slider[data-slider-scrollbar="auto"] .pgia-slides-container[data-pg-id] {
     overflow: hidden;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .pgia-slider[data-slider-scrollbar="pg"] .pgia-slides-container[data-pg-id] {
