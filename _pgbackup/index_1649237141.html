@@ -20,24 +20,30 @@
     </head>     
     <body> 
         <div class="GeometricBackground min-vh-100 min-vw-100 position-fixed" id="background">
-            <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" style="width: 50vw;" data-pg-ia='{"l":[{"trg":"scrolling","a":"rotateIn"}]}'>
-                <rect x="0" y="0" width="30.59" height="30.59" rx="15.3" ry="15.3"/>
-                <path d="M30.59,100h0c-16.9,0-30.59-13.7-30.59-30.59H30.59v30.59Z"/>
-                <rect x="34.7" width="30.59" height="30.59"/>
-                <rect x="34.7" y="69.41" width="30.59" height="30.59"/>
-                <path d="M100,30.59h-30.59V0h0c16.9,0,30.59,13.7,30.59,30.59h0Z"/>
-                <rect y="34.7" width="30.59" height="30.59"/>
-                <rect x="34.7" y="34.7" width="30.59" height="30.59" rx="15.3" ry="15.3"/>
-                <rect x="69.41" y="34.7" width="30.59" height="30.59"/>
-                <rect x="69.41" y="69.41" width="30.59" height="30.59" rx="15.3" ry="15.3"/>
+            <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" style="position: absolute; left: -50px; transform: rotate(50deg); max-width: 70vw;" data-pg-ia='{"l":[{"trg":"scrolling","a":"pxBckElement"},{"trg":"scrolling","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0.3,"transformOrigin":"center","rotationZ":-90},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"autoAlpha":1,"transformOrigin":"center","rotationZ":0},"e":"Power1.easeOut"}]}]}}]}'>
+                <defs>
+                    <style>.b { fill: #fff; }</style>
+                </defs>
+                <path class="b" d="M92,8V92H8V8H92M100,0H0V100H100V0h0Z"/>
             </svg>
-            <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50vw" class="position-absolute" style="top: 30vh; right: -5vw;" data-pg-ia='{"l":[{"trg":"scrolling","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"transformOrigin":"center","rotationZ":0},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"transformOrigin":"center","rotationZ":-360},"e":"Power1.easeOut"}]}]}}]}'>
-                <rect width="100" height="100"/>
+            <svg id="b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107.98 107.64" style="position: absolute; right: -71px; max-width: 70vw; top: 600px;" data-pg-ia='{"l":[{"trg":"scrolling","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"transformOrigin":"center","rotationZ":90},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"transformOrigin":"center","rotationZ":0},"e":"Power1.easeOut"}]}]}},{"trg":"scrolling","a":"pxBckElement"}]}'>
+                <defs>
+                    <style>.b { fill: #fff; }</style>
+                </defs>
+                <path class="b" d="M17.13,26.56c1.21-1.77,2.72-3.29,4.15-4.89,.76-.75,1.58-1.44,2.36-2.17,.4-.36,.78-.73,1.19-1.07l1.29-.96c3.35-2.67,7.18-4.68,11.13-6.28l-2.92-7.45c-4.65,1.87-9.13,4.25-13.07,7.37l-1.5,1.13c-.48,.4-.94,.83-1.4,1.25-.92,.85-1.88,1.67-2.76,2.55-1.68,1.86-3.44,3.66-4.87,5.73l6.41,4.78Z"/>
+                <path class="b" d="M47.55,8.5l1.58-.25c.53-.06,1.07-.06,1.6-.09l3.21-.17,3.21,.16,1.6,.08,1.58,.25,1.1-7.92-1.86-.28-1.88-.11-3.76-.18-3.76,.19c-.63,.04-1.25,.05-1.88,.12l-1.86,.28,1.11,7.92Z"/>
+                <path class="b" d="M70.65,11.16c.5,.19,1.02,.34,1.5,.57l1.44,.7,1.44,.69c.48,.23,.97,.45,1.42,.75l2.74,1.67c.47,.26,.89,.59,1.32,.91l1.28,.96,1.29,.96c.42,.33,.8,.71,1.2,1.07,.78,.73,1.6,1.43,2.36,2.17,1.42,1.6,2.95,3.11,4.15,4.88l6.4-4.8c-1.43-2.07-3.2-3.86-4.88-5.72-.9-.87-1.85-1.7-2.77-2.55-.47-.41-.92-.86-1.41-1.24l-1.5-1.13-1.51-1.13c-.5-.38-1-.76-1.55-1.07l-3.22-1.95c-.53-.34-1.1-.61-1.66-.88l-1.7-.82-1.7-.81c-.57-.27-1.17-.45-1.76-.68l-2.9,7.46Z"/>
+                <path class="b" d="M96.24,35.81c3.29,7.86,4.56,16.66,3.18,25.12l7.91,1.19c1.6-9.92,.14-20.23-3.74-29.48l-7.35,3.17Z"/>
+                <path class="b" d="M96.65,71.21l-.28,.75-.35,.72-.7,1.44c-.46,.96-.89,1.94-1.49,2.83l-1.66,2.74-1.92,2.57,6.31,4.92,2.25-3.02,1.96-3.22c.69-1.05,1.21-2.2,1.75-3.33l.82-1.7,.41-.85,.33-.88-7.42-2.99Z"/>
+                <path class="b" d="M82.77,89.88l-2.57,1.92c-.41,.34-.88,.6-1.34,.88l-1.37,.83-1.37,.84c-.46,.27-.96,.47-1.43,.71l-2.89,1.39c-2.02,.69-3.98,1.58-6.08,2.01l-1.55,.4c-.52,.14-1.03,.28-1.57,.33l-3.17,.48,.94,7.94,3.72-.57c.62-.07,1.23-.23,1.84-.39l1.82-.47c2.46-.53,4.78-1.53,7.14-2.37,1.14-.52,2.27-1.08,3.4-1.62,.56-.28,1.14-.52,1.68-.84l1.61-.97,1.61-.98c.54-.33,1.08-.64,1.57-1.04l3.01-2.25-5.01-6.24Z"/>
+                <path class="b" d="M48.63,99.69l-3.17-.48-.79-.12-.78-.2-1.55-.4c-2.1-.43-4.06-1.3-6.08-2-.98-.43-1.93-.92-2.89-1.38-.48-.24-.97-.45-1.44-.71l-1.37-.84c-.9-.58-1.86-1.06-2.71-1.71l-2.57-1.92-5,6.25,3.01,2.25c1.01,.75,2.12,1.34,3.18,2.01l1.61,.97c.55,.3,1.12,.56,1.69,.84,1.13,.54,2.25,1.11,3.4,1.61,2.36,.84,4.68,1.83,7.15,2.36l1.82,.47,.91,.23,.93,.15,3.72,.57,.92-7.95Z"/>
+                <path class="b" d="M17.78,82.34l-1.92-2.57-1.67-2.74c-.26-.46-.59-.9-.81-1.38l-.69-1.45-.7-1.44c-.24-.48-.47-.96-.64-1.47l-7.41,3.01c.2,.6,.47,1.16,.75,1.73l.82,1.7,.82,1.69c.26,.57,.63,1.08,.94,1.63l1.96,3.21,2.25,3.02,6.3-4.93Z"/>
+                <path class="b" d="M8.56,61.01c-1.4-8.46-.14-17.25,3.13-25.13l-7.35-3.16C.48,41.99-.96,52.3,.65,62.22l7.91-1.21Z"/>
             </svg>
         </div>
         <div class="min-vh-100" id="content">
             <div class="GlassCard1 container text-shadow" data-pg-ia='{"l":[{"name":"ShowAtLoad","trg":"load","a":"fadeInDown"}]}'> 
-                <div class="pg-empty-placeholder profilePhoto" style="background-image: url('assets/img/profile%20photo-3.jpg'); background-position: center center; background-size: cover; width: 100%; max-width: 500px; border-radius: 15px; box-shadow: -4px 4px 4px -2px 2px 4px rgba(0, 0, 0, 0.4); min-height: 300px;" data-pg-ia='{"l":[{"trg":"scrolling","a":"pxBckElement"}]}'></div>
+                <div class="pg-empty-placeholder profilePhoto" style="background-image: url('assets/img/profile%20photo-3.jpg'); background-position: center center; background-size: cover; width: 100%; max-width: 500px; border-radius: 15px; box-shadow: -4px 4px 4px -2px 2px 4px rgba(0, 0, 0, 0.4); min-height: 300px;"></div>
                 <div id="general-info" style="margin-top: 20px;"> 
                     <h1>Leonardo Colombo</h1>
                     <hr class="me-0 ms-auto"/> 
@@ -45,14 +51,14 @@
                     <p><b>Classe</b><br/>1997<br/><b>Residenza</b><br/>Fara Gera d&apos;Adda(BG)</p> 
                 </div>                 
             </div><i class="fa-4x fa-chevron-down fas w-100" style="color: #c5c5c5;" data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;ShowAtLoad&quot;,&quot;trg&quot;:&quot;load&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;autoAlpha&quot;:0},&quot;e&quot;:&quot;Power1.easeOut&quot;},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.3,&quot;l&quot;:{&quot;autoAlpha&quot;:1},&quot;e&quot;:&quot;Power1.easeOut&quot;}]}]}}]}"></i>
-            <section id="whoiam" style="padding: 15px;" data-pg-ia-scene='{"s":"custom","d":"50%","s_t":"start","s_s":"end","s_scroller":"viewport","e_t":"end","e_s":"end","pint":"$#whoiam2","pin_type":"fixed","pin_body":"true","l":[{"name":"compare1","a":"slideInUp"}]}'>
+            <section id="whoiam" style="padding: 15px;" data-pg-ia-scene='{"s":"custom","d":"50%","s_t":"start","s_s":"end","s_scroller":"viewport","e_t":"end","e_s":"end","pint":"$#whoiam2","pin_type":"fixed","pin_body":"true","l":[{"name":"compare1","a":"slideInUp"}]}' class="text-shadow">
                 <h2 style="text-align: left;">Chi sono</h2>
                 <p style="margin: 0px;">Sono un creativo digitale, nato agli inizi della Generazione Z e cresciuto nel w3, con la passione per il disegnare e la voglia di imparare che ad ora non è da meno.<br/>Ho competenze in diversi campi ma quello del web front-end è ciò che mi stimola di più, tuttavia l&apos;aspetto back-end è il lato oscuro che attrae.<br/></p>
             </section>
             <section id="myskills" class="mt-4">
                 <h2 class="text-start">Skills</h2>
                 <div class="pgia-slider" data-pg-ia='{"l":[{"trg":"now","a":{"l":[{"t":".pgia-slides-container #gt# .pgia-slide-#gt#first(${target.data-slider-slides-per-page|1})","l":[{"t":"set","p":0,"d":0,"s":0.1,"l":{"pgDom":{"clone":1,"ins":"append"}}}]}]},"pdef":"true","rstr":"true","name":"CloneSlidesForInfinite"},{"name":"AutoPlay","trg":"now","timer":"6","a":{"l":[{"t":"this","l":[{"t":"set","p":5.98,"d":0,"l":{"pgia":{"play":"GotoNext"}}}]},{"t":".pgia-progress-bar","l":[{"t":"set","p":0,"d":0,"l":{"width":0}},{"t":"tween","p":0,"d":5.98,"l":{"width":"100%"},"e":"Linear.easeNone"}]}]},"rpt":"-1","tcv":"slider-user-active","nopg":"true"},{"name":"UserActive","trg":"mouseenter","a":{"l":[{"t":"this","l":[{"t":"set","p":0,"d":0,"l":{"pgia":{"pause":"AutoPlay"}}}]},{"t":".pgia-progress","l":[{"t":"tween","p":0,"d":0.5,"l":{"autoAlpha":0}}]}]},"rstr":"true","po":"true","pol":"UserInactive"},{"name":"UserInactive","trg":"mouseleave_notouch","a":{"l":[{"t":"this","l":[{"t":"tween","p":0.5,"d":0.5,"l":{"pgia":{"play":"AutoPlay"}}}]},{"t":".pgia-progress","l":[{"t":"tween","p":0.5,"d":0.5,"l":{"autoAlpha":1}}]}]},"rstr":"true","po":"true","pol":"UserActive"},{"name":"SwipeLeftToNext","trg":"swipe_left","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeRightToPrev","trg":"swipe_right","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"GotoNext","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"next_page_or_start"}}}]}]}},{"name":"GotoPrev","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"prev_page"}}}]}]}},{"name":"GotoFirst","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"first"}}}]}]}},{"name":"GotoLast","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"last"}}}]}]}},{"name":"SwipeDownToNext","trg":"swipe_down","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeUpToPrev","trg":"swipe_up","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"}]}' data-slider-scrollbar="auto" data-slider-slides-per-page="1" data-slider-direction="vertical">
-                    <div class="mask1 pgia-slides-container" data-pg-ia-scene='{"s":"whole","snap":"e","pag":"p","pag_t":".pgia-slide","pag_i":"^.pgia-slider|.pgia-pagination-item","pag_clone":"true","pag_pa":"Current","pag_pd":"-Current","pag_inf":"true","dir":"a"}'>
+                    <div class="pgia-slides-container" data-pg-ia-scene='{"s":"whole","snap":"e","pag":"p","pag_t":".pgia-slide","pag_i":"^.pgia-slider|.pgia-pagination-item","pag_clone":"true","pag_pa":"Current","pag_pd":"-Current","pag_inf":"true","dir":"a"}'>
                         <div class="background-center-center pgia-slide" data-pg-ia='{"l":[{"trg":"no","a":{"l":[{"t":"h2","l":[{"t":"tween","p":0.4,"d":0.6,"l":{"autoAlpha":1},"e":"Linear.easeNone"}]}],"desc":"Show the content of the slide. Customize this animation to reveal the content."},"rstr":"true","po":"true","pol":"HideContent","name":"ShowContent"},{"name":"HideContent","trg":"no","a":{"l":[{"t":"h2","l":[{"t":"tween","p":0,"d":0.1,"l":{"autoAlpha":0}}]}],"desc":"Hide the content of the slide. Customize this animation to reveal the content."},"rstr":"true","po":"true","pol":"ShowContent"}]}' data-pg-ia-scene='{"dir":"a","s":"custom","s_t":"start","s_s":"end","e_t":"end","e_s":"start","l":[{"a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"HideContent"}}},{"t":"tween","p":0.5,"d":9,"l":{"pgia":{"play":"ShowContent"}}},{"t":"tween","p":9.5,"d":0.5,"l":{"pgia":{"play":"HideContent"}}}]}]},"p":"scroll","sc_dir":"up_down","rep":"true"}]}' data-pg-ia-apply="^.pgia-slider|.pgia-slide" style="background-image: url('assets/img/pexels-ludvig-hedenborg-3753160.jpg'); background-size: cover; background-position: center center; background-attachment: fixed; background-repeat: repeat;" id="GraphicDesign">
                             <!--Foto di Ludvig Hedenborg da Pexels-->
                             <h2 data-pg-ia-hide>Graphic Design</h2>
@@ -74,65 +80,17 @@
                             <p>La risoluzione di problemi è alla base del lavoro di ogni creativo, lo sviluppo di un sito web necessita indispensabilmente del saper trovare soluzioni.</p>
                         </div>
                     </div>
-                    <div class="pgia-controls" style="opacity: 0;">
-                        <a class="prev pgia-control" href="#" data-scroll-to="prev" data-pg-ia='{"l":[{"name":"ScrollTo","trg":"click","a":{"l":[{"t":"^.pgia-slider","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"Goto${target.data-scroll-to}"}}}]}]},"pdef":"true"}]}' data-pg-ia-apply="^.pgia-slider|.pgia-control">&lsaquo;</a>
-                        <div class="pgia-pagination"><a class="pgia-pagination-item" href="#" data-pg-ia='{"l":[{"name":"ScrollToSlide","trg":"click","a":{"l":[{"t":"^.pgia-slider|.pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"page"}}}]}]},"pdef":"true"},{"trg":"no","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.2,"l":{"scale":1.5}}]}],"desc":"Customize the active item animation."},"name":"Current"}]}'></a>
-                        </div>
-                        <a class="next pgia-control" href="#" data-scroll-to="next">&rsaquo;</a>
+                    <div class="pgia-controls" style="opacity: 0;"><a class="prev pgia-control" href="#" data-scroll-to="prev" data-pg-ia='{"l":[{"name":"ScrollTo","trg":"click","a":{"l":[{"t":"^.pgia-slider","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"Goto${target.data-scroll-to}"}}}]}]},"pdef":"true"}]}' data-pg-ia-apply="^.pgia-slider|.pgia-control">&lsaquo;</a>
+                        <div class="pgia-pagination">
+                            <a class="pgia-pagination-item" href="#" data-pg-ia='{"l":[{"name":"ScrollToSlide","trg":"click","a":{"l":[{"t":"^.pgia-slider|.pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"page"}}}]}]},"pdef":"true"},{"trg":"no","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.2,"l":{"scale":1.5}}]}],"desc":"Customize the active item animation."},"name":"Current"}]}'></a>
+                        </div><a class="next pgia-control" href="#" data-scroll-to="next">&rsaquo;</a>
                     </div>
                     <div class="pgia-progress" style="opacity: 0;">
                         <div class="pgia-progress-bar"></div>
                     </div>
                 </div>
             </section>
-            <section class="bg-light mt-5 pb-5 pt-5"> 
-                <div class="container"> 
-                    <div class="row"> 
-                        <div class="col-md-4 py-3"> 
-                            <div class="ps-lg-4 pe-lg-4"> 
-                                <svg viewBox="0 0 24 24" fill="currentColor" height="40" width="40" class="mb-4 text-primary"> 
-                                    <path d="M9.366 10.682a10.556 10.556 0 0 0 3.952 3.952l.884-1.238a1 1 0 0 1 1.294-.296 11.422 11.422 0 0 0 4.583 1.364 1 1 0 0 1 .921.997v4.462a1 1 0 0 1-.898.995c-.53.055-1.064.082-1.602.082C9.94 21 3 14.06 3 5.5c0-.538.027-1.072.082-1.602A1 1 0 0 1 4.077 3h4.462a1 1 0 0 1 .997.921A11.422 11.422 0 0 0 10.9 8.504a1 1 0 0 1-.296 1.294l-1.238.884zm-2.522-.657l1.9-1.357A13.41 13.41 0 0 1 7.647 5H5.01c-.006.166-.009.333-.009.5C5 12.956 11.044 19 18.5 19c.167 0 .334-.003.5-.01v-2.637a13.41 13.41 0 0 1-3.668-1.097l-1.357 1.9a12.442 12.442 0 0 1-1.588-.75l-.058-.033a12.556 12.556 0 0 1-4.702-4.702l-.033-.058a12.442 12.442 0 0 1-.75-1.588z"></path>                                     
-                                </svg>                                 
-                                <h2 class="fw-bold h5 mb-2 text-uppercase">Phone</h2> 
-                                <ul class="list-unstyled"> 
-                                    <li> <a href="tel:+0 123-456-789" class="text-secondary">+0 123-456-789</a> 
-                                    </li>                                     
-                                    <li> <a href="tel:+0 123-456-789" class="text-secondary">+0 123-456-789</a> 
-                                    </li>                                     
-                                </ul>                                 
-                            </div>                             
-                        </div>                         
-                        <div class="col-md-4 py-3"> 
-                            <div class="ps-lg-4 pe-lg-4"> 
-                                <svg viewBox="0 0 24 24" fill="currentColor" height="40" width="40" class="mb-4 text-primary"> 
-                                    <path d="M12 20.9l4.95-4.95a7 7 0 1 0-9.9 0L12 20.9zm0 2.828l-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 2a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"></path>                                     
-                                </svg>                                 
-                                <h2 class="fw-bold h5 mb-2 text-uppercase">Address</h2> 
-                                <div class="text-secondary">                         9056 Fairground Ave.                         <br/>                         Dearborn, MI 48124                         <br/>                         United States of America                     
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                        <div class="col-md-4 py-3"> 
-                            <div class="ps-lg-4 pe-lg-4"> 
-                                <svg viewBox="0 0 24 24" fill="currentColor" height="40" width="40" class="mb-4 text-primary"> 
-                                    <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"></path>                                     
-                                </svg>                                 
-                                <h2 class="fw-bold h5 mb-2 text-uppercase">Email</h2> 
-                                <div class="mb-2"> <a href="mailto:info@company.com" class="text-secondary">info@company.com</a> 
-                                </div>                                 
-                                <div class="d-inline-flex flex-wrap"> <a href="#" class="btn btn-secondary me-1 p-2 rounded-circle" aria-label="facebook"> <svg viewBox="0 0 24 24" fill="currentColor" width="1rem" height="1rem" class="d-block"> 
-                                            <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
-                                        </svg> </a> <a href="#" class="btn btn-secondary me-1 p-2 rounded-circle" aria-label="twitter"> <svg viewBox="0 0 24 24" fill="currentColor" width="1rem" height="1rem" class="d-block"> 
-                                            <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/> 
-                                        </svg> </a> <a href="#" class="btn btn-secondary me-1 p-2 rounded-circle" aria-label="instagram"> <svg viewBox="0 0 24 24" fill="currentColor" width="1rem" height="1rem" class="d-block"> 
-                                            <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/> 
-                                        </svg> </a> 
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </section>
+            <div style="height: 400px;"></div>
         </div>         
         <!-- Bootstrap core JavaScript
     ================================================== -->         
