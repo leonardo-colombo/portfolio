@@ -20,7 +20,6 @@
     </head>     
     <body> 
         <div class="GeometricBackground min-vh-100 min-vw-100 position-fixed" id="background">
-            <img src="/assets/svg/tools.svg" style="width: 300vw; z-index: 9; position: absolute; left: -350px; bottom: 70px;" data-pg-ia-scene='{"dir":"v","dbg":"true","s":"custom","s_t":"end","s_s":"center","s_scroller":"$.pgia-slides-container","e_t":"end","e_target":"this","e_s":"end","l":[{"a":"fadeIn"}]}' id="toolsCircle"></img>
             <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" style="position: absolute; left: -50px; transform: rotate(50deg); max-width: 70vw;" data-pg-ia='{"l":[{"trg":"scrolling","a":"pxBckElement"},{"trg":"scrolling","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0.3,"transformOrigin":"center","rotationZ":-90},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"autoAlpha":1,"transformOrigin":"center","rotationZ":0},"e":"Power1.easeOut"}]}]}}]}'>
                 <defs>
                     <style>.b { fill: #fff; }</style>
@@ -51,7 +50,7 @@
                     <h2>Web &amp; Design</h2>
                     <p><b>Classe</b><br/>1997<br/><b>Residenza</b><br/>Fara Gera d&apos;Adda(BG)</p> 
                 </div>                 
-            </div><i class="fa-4x fa-chevron-down fas w-100" style="color: #c5c5c5;" data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;ShowAtLoad&quot;,&quot;trg&quot;:&quot;load&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;autoAlpha&quot;:0},&quot;e&quot;:&quot;Power1.easeOut&quot;},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.3,&quot;l&quot;:{&quot;autoAlpha&quot;:1},&quot;e&quot;:&quot;Power1.easeOut&quot;}]}]}}]}"></i>
+            </div><i class="fa-chevron-down fa-lg fas w-100" style="color: #c5c5c5; position: relative;" data-pg-ia='{"l":[{"name":"ShowAtLoad","trg":"load","a":"headShake"}]}'></i>
             <section id="whoiam" style="padding: 15px;" data-pg-ia-scene='{"s":"custom","d":"50%","s_t":"start","s_s":"end","s_scroller":"viewport","e_t":"end","e_s":"end","pint":"$#whoiam2","pin_type":"fixed","pin_body":"true","l":[{"name":"compare1","a":"slideInUp"}]}' class="text-shadow">
                 <h2 style="text-align: left;">Chi sono</h2>
                 <p style="margin: 0px;">Sono un creativo digitale, nato agli inizi della Generazione Z e cresciuto nel w3, con la passione per il disegnare e la voglia di imparare che ad ora non è da meno.<br/>Ho competenze in diversi campi ma quello del web front-end è ciò che mi stimola di più, tuttavia l&apos;aspetto back-end è il lato oscuro che attrae.<br/></p>
@@ -91,8 +90,10 @@
                     </div>
                 </div>
             </section>
-            <section id="tools" style="height: 200px;">
-</section>
+            <div class=" toolmask" style="overflow: hidden; position: relative; vertical-align: baseline; display: flex; height: 150px; margin-left: -15px; margin-right: -15px;" data-pg-ia-scene='{"dir":"v","s":"onEnter","d":"default","l":[{"t":"#ToolsWeel","a":"rotateIn"}],"smooth":"5s"}'>
+                <img src="assets/svg/tools.svg" style="width: 200vw; position: absolute; bottom: 0; transform: translateX(-50vw);" id="ToolsWeel" data-pg-ia='{"l":[{"name":"CloneSlidesForInfinite","trg":"now","a":{"l":[{"t":".pgia-slides-container #gt# .pgia-slide-#gt#first(${target.data-slider-slides-per-page|1})","l":[{"t":"set","p":0,"d":0,"s":0.1,"l":{"pgDom":{"clone":1,"ins":"append"}}}]}]},"pdef":"true","rstr":"true"},{"name":"SwipeLeftToNext","trg":"swipe_left","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeRightToPrev","trg":"swipe_right","a":{"l":[{"t":"$.toolmask","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"GotoNext","trg":"no","a":{"l":[{"t":"$#ToolsWeel","l":[{"t":"tween","p":0,"d":0.5,"l":{"rotationZ":"+=25"}}]}]}},{"name":"GotoPrev","trg":"no","a":{"l":[{"t":"$#ToolsWeel","l":[{"t":"tween","p":0,"d":0.5,"l":{"rotationZ":"-=25"}}]}]}},{"name":"GotoFirst","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"first"}}}]}]}},{"name":"GotoLast","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"last"}}}]}]}},{"name":"SwipeDownToNext","trg":"swipe_down","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeUpToPrev","trg":"swipe_up","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"}]}'/>
+            </div><i class="fa-chevron-down fa-lg fas w-100" style="color: #c5c5c5; position: relative; margin-top: 20px; margin-bottom: 20px;" data-pg-ia-scene='{"dir":"v","s":"onEnter","l":[{"a":"headShake","t":"$#content #gt# i:nth-of-type(2)"}]}'></i>
+            <section id="footer" style="margin-left: -15px; margin-right: -15px; height: 100px; background-color: #ffffff; position: relative;"></section>
         </div>         
         <!-- Bootstrap core JavaScript
     ================================================== -->         
