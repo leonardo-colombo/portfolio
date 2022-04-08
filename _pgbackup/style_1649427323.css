@@ -242,45 +242,5 @@
     }
 }
 
-@media only screen and (min-width:1400px){
-    .prophoto {
-        float: left;
-    }
 
-    .GlassCard1 p {
-        text-align: right;
-    }
-
-    h1 {
-        font-size: 4em;
-        text-align: right;
-    }
-
-    h2 {
-        font-size: 3em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    .pgia-slide {
-        position: relative;
-        justify-content: center;
-        display: flex;
-    }
-
-    .BackgroundSquare1 {
-        max-width: 50vw;
-    }
-
-    .toolmask {
-        height: 625px;
-    }
-
-    .weel {
-        width: 130vw;
-        transform: translateX(-15vw);
-    }
-}
 

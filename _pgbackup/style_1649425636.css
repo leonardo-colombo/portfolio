@@ -73,13 +73,6 @@
     min-height: 300px;
 }
 
-.BackgroundSquare1 {
-    position: absolute;
-    left: -50px;
-    transform: rotate(50deg);
-    max-width: 70vw;
-}
-
 /* start infinite loop rotation for class .rotating */
 @-webkit-keyframes rotating /* Safari and Chrome */ {
     from {
@@ -158,7 +151,7 @@
     }
 }
 
-@media only screen and (min-width:992px) and (max-width:1199px) {
+@media only screen and (min-width:992px) and (max-width:1200px) {
     .toolmask {
         height: 320px;
     }
@@ -182,6 +175,14 @@
     }
 
     .prophoto {
+        background-image: url('assets/img/profile%20photo-3.jpg');
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        max-width: 500px;
+        border-radius: 15px;
+        box-shadow: -4px 4px 4px -2px 2px 4px rgba(0, 0, 0, 0.4);
+        min-height: 300px;
         float: left;
     }
 
@@ -190,97 +191,23 @@
     }
 
     .pgia-slide {
-        position: relative;
-        justify-content: center;
-        display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(26, 32, 57) 0%, rgb(28, 53, 158) 100%);
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
     }
-
-    .BackgroundSquare1 {
-        max-width: 50vw;
-    }
+    
 }
 
-@media only screen and (min-width:1200px) and (max-width:1399px) {
-    .prophoto {
-        float: left;
-    }
 
-    .GlassCard1 p {
-        text-align: right;
-    }
-
-    h1 {
-        font-size: 3.8em;
-        text-align: right;
-    }
-
-    h2 {
-        font-size: 3em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    .pgia-slide {
-        position: relative;
-        justify-content: center;
-        display: flex;
-    }
-
-    .BackgroundSquare1 {
-        max-width: 50vw;
-    }
-
-    .toolmask {
-        height: 400px;
-    }
-
-    .weel {
-        width: 150vw;
-        transform: translateX(-26vw);
-    }
-}
-
-@media only screen and (min-width:1400px){
-    .prophoto {
-        float: left;
-    }
-
-    .GlassCard1 p {
-        text-align: right;
-    }
-
-    h1 {
-        font-size: 4em;
-        text-align: right;
-    }
-
-    h2 {
-        font-size: 3em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    .pgia-slide {
-        position: relative;
-        justify-content: center;
-        display: flex;
-    }
-
-    .BackgroundSquare1 {
-        max-width: 50vw;
-    }
-
-    .toolmask {
-        height: 625px;
-    }
-
-    .weel {
-        width: 130vw;
-        transform: translateX(-15vw);
-    }
-}
 

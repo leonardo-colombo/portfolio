@@ -1,9 +1,0 @@
-.ProfilePhoto {
-    background-image: url('assets/img/profile%20photo-3.jpg');
-    background-position: center center;
-    background-size: cover;
-    border-radius: 10px;
-    min-height: 300px;
-    max-width: 500px;
-    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.4)};
-}

@@ -12175,7 +12175,6 @@ textarea.form-control-lg {
     backdrop-filter: blur(4.2px);
     -webkit-backdrop-filter: blur(4.2px);
     padding: 15px;
-    max-height: 1400px;
 }
 
 .background {
