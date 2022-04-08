@@ -1,12 +1,12 @@
 <!DOCTYPE html> 
-<html lang="en"> 
+<html lang="it"> 
     <head> 
         <meta charset="utf-8"/> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/> 
-        <meta name="description" content=""/> 
-        <meta name="author" content=""/> 
-        <title>Blank Template for Bootstrap</title>         
+        <meta name="description" content="Portfolio web di Leonardo"/> 
+        <meta name="author" content="Leonardo"/> 
+        <title>Hello World!</title>         
         <!-- Bootstrap core CSS -->         
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/> 
         <!-- Custom styles for this template -->         
@@ -20,13 +20,13 @@
     </head>     
     <body> 
         <div class="GeometricBackground min-vh-100 min-vw-100 position-fixed" id="background">
-            <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" style="position: absolute; left: -50px; transform: rotate(50deg); max-width: 70vw;" data-pg-ia='{"l":[{"trg":"scrolling","a":"pxBckElement"},{"trg":"scrolling","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0.3,"transformOrigin":"center","rotationZ":-90},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"autoAlpha":1,"transformOrigin":"center","rotationZ":0},"e":"Power1.easeOut"}]}]}}]}'>
+            <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" data-pg-ia='{"l":[{"name":"parallax1","trg":"scrolling","a":"pxBckElement"},{"name":"rotate with scroll","trg":"scrolling","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"autoAlpha":0.3,"transformOrigin":"center","rotationZ":0},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"autoAlpha":1,"transformOrigin":"center","rotationZ":90},"e":"Power1.easeOut"}]}]}}]}' class="BackgroundSquare1">
                 <defs>
                     <style>.b { fill: #fff; }</style>
                 </defs>
                 <path class="b" d="M92,8V92H8V8H92M100,0H0V100H100V0h0Z"/>
             </svg>
-            <svg id="b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107.98 107.64" style="position: absolute; right: -71px; max-width: 70vw; top: 600px;" data-pg-ia='{"l":[{"trg":"scrolling","a":{"l":[{"t":"","l":[{"t":"set","p":0,"d":0,"l":{"transformOrigin":"center","rotationZ":90},"e":"Power1.easeOut"},{"t":"tween","p":0,"d":1,"l":{"transformOrigin":"center","rotationZ":0},"e":"Power1.easeOut"}]}]}},{"trg":"scrolling","a":"pxBckElement"}]}'>
+            <svg id="b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 107.98 107.64" style="position: absolute; right: -71px; max-width: 70vw; top: 600px;" class="rotating">
                 <defs>
                     <style>.b { fill: #fff; }</style>
                 </defs>
@@ -41,62 +41,63 @@
                 <path class="b" d="M8.56,61.01c-1.4-8.46-.14-17.25,3.13-25.13l-7.35-3.16C.48,41.99-.96,52.3,.65,62.22l7.91-1.21Z"/>
             </svg>
         </div>
-        <div class="min-vh-100" id="content">
-            <div class="GlassCard1 container text-shadow" data-pg-ia='{"l":[{"name":"ShowAtLoad","trg":"load","a":"fadeInDown"}]}'> 
-                <div class="pg-empty-placeholder profilePhoto" style="background-image: url('assets/img/profile%20photo-3.jpg'); background-position: center center; background-size: cover; width: 100%; max-width: 500px; border-radius: 15px; box-shadow: -4px 4px 4px -2px 2px 4px rgba(0, 0, 0, 0.4); min-height: 300px;"></div>
+        <div class="min-vh-100" id="content" style="max-width: 1400pz;">
+            <div class="GlassCard1 container text-shadow" data-pg-ia='{"l":[{"name":"ShowAtLoad","trg":"load","a":"fadeInDown"}]}' style="max-width: 1200px;"> 
+                <div class="profilePhoto prophoto"></div>
                 <div id="general-info" style="margin-top: 20px;"> 
                     <h1>Leonardo Colombo</h1>
                     <hr class="me-0 ms-auto"/> 
                     <h2>Web &amp; Design</h2>
                     <p><b>Classe</b><br/>1997<br/><b>Residenza</b><br/>Fara Gera d&apos;Adda(BG)</p> 
                 </div>                 
-            </div>
-            <i class="fa-chevron-down fa-lg fas w-100" style="color: #c5c5c5; position: relative;" data-pg-ia='{"l":[{"name":"ShowAtLoad","trg":"load","a":"headShake"}]}'></i>
-            <section id="whoiam" style="padding: 15px;" data-pg-ia-scene='{"s":"custom","d":"50%","s_t":"start","s_s":"end","s_scroller":"viewport","e_t":"end","e_s":"end","pint":"$#whoiam2","pin_type":"fixed","pin_body":"true","l":[{"name":"compare1","a":"slideInUp"}]}' class="text-shadow">
+            </div><i class="fa-chevron-down fa-lg fas w-100" style="color: #ffffff; position: relative;" data-pg-ia='{"l":[{"name":"ShowAtLoad","trg":"load","a":"headShake"}]}'></i>
+            <section id="whoiam" style="padding: 15px; max-width: 1200px;" data-pg-ia-scene='{"s":"custom","d":"50%","s_t":"start","s_s":"end","s_scroller":"viewport","e_t":"end","e_s":"end","pint":"$#whoiam2","pin_type":"fixed","pin_body":"true","l":[{"name":"compare1","a":"slideInUp"}]}' class="me-auto ms-auto text-shadow">
                 <h2 style="text-align: left;">Chi sono</h2>
                 <p style="margin: 0px;">Sono un creativo digitale, nato agli inizi della Generazione Z e cresciuto nel W3, con la passione per il disegno e tanta curiosità che ad ora non è da meno.<br/>Ho competenze in diversi campi ma quello del web front-end è sicuramente il più appassionante, tuttavia l&apos;aspetto back-end è il lato oscuro che attrae.<br/></p>
             </section>
-            <section id="myskills" class="mt-4">
+            <section id="myskills" class="me-auto ms-auto mt-4" style="max-width: 1200px;">
                 <h2 class="text-start">Skills</h2>
-                <div class="pgia-slider" data-pg-ia='{"l":[{"name":"CloneSlidesForInfinite","trg":"now","a":{"l":[{"t":".pgia-slides-container #gt# .pgia-slide-#gt#first(${target.data-slider-slides-per-page|1})","l":[{"t":"set","p":0,"d":0,"s":0.1,"l":{"pgDom":{"clone":1,"ins":"append"}}}]}]},"pdef":"true","rstr":"true","on":"off"},{"name":"AutoPlay","trg":"now","timer":"6","a":{"l":[{"t":"this","l":[{"t":"set","p":5.98,"d":0,"l":{"pgia":{"play":"GotoNext"}}}]},{"t":".pgia-progress-bar","l":[{"t":"set","p":0,"d":0,"l":{"width":0}},{"t":"tween","p":0,"d":5.98,"l":{"width":"100%"},"e":"Linear.easeNone"}]}]},"rpt":"-1","tcv":"slider-user-active","nopg":"true"},{"name":"UserActive","trg":"mouseenter","a":{"l":[{"t":"this","l":[{"t":"set","p":0,"d":0,"l":{"pgia":{"pause":"AutoPlay"}}}]},{"t":".pgia-progress","l":[{"t":"tween","p":0,"d":0.5,"l":{"autoAlpha":0}}]}]},"rstr":"true","po":"true","pol":"UserInactive"},{"name":"UserInactive","trg":"mouseleave_notouch","a":{"l":[{"t":"this","l":[{"t":"tween","p":0.5,"d":0.5,"l":{"pgia":{"play":"AutoPlay"}}}]},{"t":".pgia-progress","l":[{"t":"tween","p":0.5,"d":0.5,"l":{"autoAlpha":1}}]}]},"rstr":"true","po":"true","pol":"UserActive"},{"name":"SwipeLeftToNext","trg":"swipe_left","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeRightToPrev","trg":"swipe_right","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"GotoNext","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"next_page_or_start"}}}]}]}},{"name":"GotoPrev","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"prev_page"}}}]}]}},{"name":"GotoFirst","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"first"}}}]}]}},{"name":"GotoLast","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"last"}}}]}]}},{"name":"SwipeDownToNext","trg":"swipe_down","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeUpToPrev","trg":"swipe_up","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"}]}' data-slider-scrollbar="auto" data-slider-slides-per-page="1" data-slider-direction="vertical">
+                <div class="pgia-slider" data-pg-ia='{"l":[{"name":"AutoPlay","trg":"now","timer":"6","a":{"l":[{"t":"this","l":[{"t":"set","p":5.98,"d":0,"l":{"pgia":{"play":"GotoNext"}}}]},{"t":".pgia-progress-bar","l":[{"t":"set","p":0,"d":0,"l":{"width":0}},{"t":"tween","p":0,"d":5.98,"l":{"width":"100%"},"e":"Linear.easeNone"}]}]},"rpt":"-1","tcv":"slider-user-active","nopg":"true"},{"name":"UserActive","trg":"mouseenter","a":{"l":[{"t":"this","l":[{"t":"set","p":0,"d":0,"l":{"pgia":{"pause":"AutoPlay"}}}]},{"t":".pgia-progress","l":[{"t":"tween","p":0,"d":0.5,"l":{"autoAlpha":0}}]}]},"rstr":"true","po":"true","pol":"UserInactive"},{"name":"UserInactive","trg":"mouseleave_notouch","a":{"l":[{"t":"this","l":[{"t":"tween","p":0.5,"d":0.5,"l":{"pgia":{"play":"AutoPlay"}}}]},{"t":".pgia-progress","l":[{"t":"tween","p":0.5,"d":0.5,"l":{"autoAlpha":1}}]}]},"rstr":"true","po":"true","pol":"UserActive"},{"name":"SwipeLeftToNext","trg":"swipe_left","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeRightToPrev","trg":"swipe_right","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"GotoNext","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"next_page_or_start"}}}]}]}},{"name":"GotoPrev","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"prev_page"}}}]}]}},{"name":"GotoFirst","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"first"}}}]}]},"on":"off"},{"name":"GotoLast","trg":"no","a":{"l":[{"t":".pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"last"}}}]}]},"on":"off"},{"name":"SwipeDownToNext","trg":"swipe_down","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeUpToPrev","trg":"swipe_up","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"}]}' data-slider-scrollbar="auto" data-slider-slides-per-page="1" data-slider-direction="vertical">
                     <div class="pgia-slides-container" data-pg-ia-scene='{"s":"whole","snap":"e","pag":"p","pag_t":".pgia-slide","pag_i":"^.pgia-slider|.pgia-pagination-item","pag_clone":"true","pag_pa":"Current","pag_pd":"-Current","pag_inf":"true","dir":"a"}'>
                         <div class="background-center-center pgia-slide" data-pg-ia='{"l":[{"trg":"no","a":{"l":[{"t":"h2","l":[{"t":"tween","p":0.4,"d":0.6,"l":{"autoAlpha":1},"e":"Linear.easeNone"}]}],"desc":"Show the content of the slide. Customize this animation to reveal the content."},"rstr":"true","po":"true","pol":"HideContent","name":"ShowContent"},{"name":"HideContent","trg":"no","a":{"l":[{"t":"h2","l":[{"t":"tween","p":0,"d":0.1,"l":{"autoAlpha":0}}]}],"desc":"Hide the content of the slide. Customize this animation to reveal the content."},"rstr":"true","po":"true","pol":"ShowContent"}]}' data-pg-ia-scene='{"dir":"a","s":"custom","s_t":"start","s_s":"end","e_t":"end","e_s":"start","l":[{"a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"HideContent"}}},{"t":"tween","p":0.5,"d":9,"l":{"pgia":{"play":"ShowContent"}}},{"t":"tween","p":9.5,"d":0.5,"l":{"pgia":{"play":"HideContent"}}}]}]},"p":"scroll","sc_dir":"up_down","rep":"true"}]}' data-pg-ia-apply="^.pgia-slider|.pgia-slide" style="background-image: url('assets/img/pexels-ludvig-hedenborg-3753160.jpg'); background-size: cover; background-position: center center; background-attachment: fixed; background-repeat: repeat;" id="GraphicDesign">
                             <!--Foto di Ludvig Hedenborg da Pexels-->
-                            <h2 data-pg-ia-hide>Graphic Design</h2>
+                            <h2>Graphic Design</h2>
                             <p>Ho una formazione scolastica come graphic Designer, questo mi permette di applicare le regole di composizione grafica con logica in modo da ottenere un risultato non solo funzionale ma anche graficamente corretto.</p>
                         </div>
-                        <div class="background-center-center pgia-slide" style="background-image: url('assets/img/pexels-pixabay-355956.jpg'); background-size: cover; background-attachment: fixed; background-position: center center; background-repeat: repeat;" id="TeamWork">
+                        <div class="background-center-center pgia-slide" style="background-size: cover; background-attachment: fixed; background-position: center center; background-repeat: repeat;background-image:url('assets/img/pexels-mnm-zameer-3308588.jpg');" id="TeamWork">
                             <!--Foto di Pixabay Olichon da Pexels-->
-                            <h2 data-pg-ia-hide>Team work</h2>
+                            <h2>Team work</h2>
                             <p>Nella mia esperienza ho gestito diversi team di persone, sia con lavori ad obbiettivi, sia con un progetto comune, pertanto sono molto propenso al lavoro in team e alla collaborazione.</p>
                         </div>
                         <div class="pgia-slide" style="background-image: url('assets/img/pexels-adrien-olichon-2387793.jpg'); background-size: cover; background-attachment: fixed; background-position: center center; background-repeat: repeat;" id="Marketing">
                             <!--Foto di Adrien Olichon da Pexels-->
-                            <h2 data-pg-ia-hide>Marketing</h2>
+                            <h2>Marketing</h2>
                             <p>So essere autonomo nella realizzazione di un PED e Adv digital, passando da piattaforme paid come Google Ads o Meta Business a concetti basilari di SEO e SEM.</p>
                         </div>
-                        <div class="pgia-slide" style="background-image: url('assets/img/pexels-stanislav-kondratiev-2908971.jpg'); background-size: cover; background-position: center center; background-attachment: fixed; background-repeat: repeat;" id="ProblemSolving">
+                        <div class="pgia-slide" style="background-size: cover; background-position: center center; background-attachment: fixed; background-repeat: repeat;background-image:url('assets/img/pexels-bruno-thethe-1910231.jpg');" id="ProblemSolving">
                             <!--Foto di Stanislav Kondratiev da Pexels-->
-                            <h2 data-pg-ia-hide>Problem solving</h2>
+                            <h2>Problem solving</h2>
                             <p>La risoluzione di problemi è alla base del lavoro di ogni creativo, lo sviluppo di un sito web necessita indispensabilmente del saper trovare soluzioni.</p>
                         </div>
                     </div>
-                    <div class="pgia-controls" style="opacity: 0;">
-                        <a class="prev pgia-control" href="#" data-scroll-to="prev" data-pg-ia='{"l":[{"name":"ScrollTo","trg":"click","a":{"l":[{"t":"^.pgia-slider","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"Goto${target.data-scroll-to}"}}}]}]},"pdef":"true"}]}' data-pg-ia-apply="^.pgia-slider|.pgia-control">&lsaquo;</a>
+                    <div class="pgia-controls" style="opacity: 0;"><a class="prev pgia-control" href="#" data-scroll-to="prev" data-pg-ia='{"l":[{"name":"ScrollTo","trg":"click","a":{"l":[{"t":"^.pgia-slider","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"Goto${target.data-scroll-to}"}}}]}]},"pdef":"true"}]}' data-pg-ia-apply="^.pgia-slider|.pgia-control">&lsaquo;</a>
                         <div class="pgia-pagination">
                             <a class="pgia-pagination-item" href="#" data-pg-ia='{"l":[{"name":"ScrollToSlide","trg":"click","a":{"l":[{"t":"^.pgia-slider|.pgia-slides-container","l":[{"t":"tween","p":0,"d":0.5,"l":{"scrollTo":{"dest":"page"}}}]}]},"pdef":"true"},{"trg":"no","a":{"l":[{"t":"","l":[{"t":"tween","p":0,"d":0.2,"l":{"scale":1.5}}]}],"desc":"Customize the active item animation."},"name":"Current"}]}'></a>
-                        </div>
-                        <a class="next pgia-control" href="#" data-scroll-to="next">&rsaquo;</a>
+                        </div><a class="next pgia-control" href="#" data-scroll-to="next">&rsaquo;</a>
                     </div>
                     <div class="pgia-progress" style="opacity: 0;">
                         <div class="pgia-progress-bar"></div>
                     </div>
                 </div>
-            </section><i class="fa-chevron-down fa-lg fas w-100" style="color: #c5c5c5; position: relative; margin-top: 20px; margin-bottom: 20px;" data-pg-ia-scene='{"dir":"v","s":"onEnter","l":[{"a":"headShake","t":"$#content #gt# i:nth-of-type(2)"}]}'></i>
-            <div class=" toolmask" style="overflow: hidden; position: relative; vertical-align: baseline; display: flex; height: 150px; margin-left: -15px; margin-right: -15px; margin-bottom: 20px;" data-pg-ia-scene='{"dir":"v","s":"onEnter","d":"default","l":[{"t":"#ToolsWeel","a":"rotateIn"}],"smooth":"5s"}'>
-                <img src="assets/svg/tools.svg" style="width: 200vw; position: absolute; bottom: 0; transform: translateX(-50vw);" id="ToolsWeel" data-pg-ia='{"l":[{"name":"CloneSlidesForInfinite","trg":"now","a":{"l":[{"t":".pgia-slides-container #gt# .pgia-slide-#gt#first(${target.data-slider-slides-per-page|1})","l":[{"t":"set","p":0,"d":0,"s":0.1,"l":{"pgDom":{"clone":1,"ins":"append"}}}]}]},"pdef":"true","rstr":"true"},{"name":"SwipeLeftToNext","trg":"swipe_left","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeRightToPrev","trg":"swipe_right","a":{"l":[{"t":"$#ToolsWeel","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"GotoNext","trg":"no","a":{"l":[{"t":"$#ToolsWeel","l":[{"t":"tween","p":0,"d":0.5,"l":{"rotationZ":"+=25"}}]}]},"sprop":"true","rcr":"true"},{"name":"GotoPrev","trg":"no","a":{"l":[{"t":"$#ToolsWeel","l":[{"t":"tween","p":0,"d":0.5,"l":{"rotationZ":"-=25"}}]}]},"sprop":"true","rcr":"true"}]}'/>
+            </section>
+            <i class="fa-chevron-down fa-lg fas w-100" style="color: #ffffff; position: relative; margin-top: 20px; margin-bottom: 20px;" data-pg-ia-scene='{"dir":"v","s":"onEnter","l":[{"a":"headShake","t":"$#content #gt# i:nth-of-type(2)"}]}'></i>
+            <div class=" toolmask" style="overflow: hidden; position: relative; vertical-align: baseline; display: flex; margin-left: -15px; margin-right: -15px; margin-bottom: 20px;" data-pg-ia-scene='{"dir":"v","smooth":"5s","s":"onEnter","d":"default","l":[{"t":"#ToolsWeel","a":"rotateIn"},{"a":"pxBckElement"}]}'>
+                <img src="assets/svg/tools.svg" id="ToolsWeel" data-pg-ia='{"l":[{"name":"CloneSlidesForInfinite","trg":"now","a":{"l":[{"t":".pgia-slides-container #gt# .pgia-slide-#gt#first(${target.data-slider-slides-per-page|1})","l":[{"t":"set","p":0,"d":0,"s":0.1,"l":{"pgDom":{"clone":1,"ins":"append"}}}]}]},"pdef":"true","rstr":"true"},{"name":"SwipeLeftToNext","trg":"swipe_left","a":{"l":[{"t":"this","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoNext"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"SwipeRightToPrev","trg":"swipe_right","a":{"l":[{"t":"$#ToolsWeel","l":[{"t":"tween","p":0,"d":0.5,"l":{"pgia":{"play":"GotoPrev"}}}]}]},"tc":"no-attr","tca":"data-slider-direction","tcv":"vertical","pdef":"true"},{"name":"GotoNext","trg":"no","a":{"l":[{"t":"$#ToolsWeel","l":[{"t":"tween","p":0,"d":0.5,"l":{"rotationZ":"+=25"}}]}]},"sprop":"true","rcr":"true"},{"name":"GotoPrev","trg":"no","a":{"l":[{"t":"$#ToolsWeel","l":[{"t":"tween","p":0,"d":0.5,"l":{"rotationZ":"-=25"}}]}]},"sprop":"true","rcr":"true"}]}' class="weel"/>
             </div>
-            <section id="footer" style="margin-left: -15px; margin-right: -15px; height: 100px; background-color: #ffffff; position: relative;"></section>
+            <section id="footer" style="margin-left: -15px; margin-right: -15px; height: 100px; background-color: #ffffff; position: relative;">
+                <h3 class="text-danger"><a href="mailto:leocolombo1997.lc@gmail.com" class="text-danger text-decoration-none">leocolombo1997.lc@gmail.com</a></h3>
+                <h2 class="text-danger"><a href="tel:+393349415472" class="text-danger text-decoration-none">334 941 5472</a></h2>
+            </section>
         </div>         
         <!-- Bootstrap core JavaScript
     ================================================== -->         

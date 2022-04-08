@@ -7876,6 +7876,8 @@ textarea.form-control-lg {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 20px;
+    position: relative;
+    overflow: hidden;
 }
 
 .flex-fill {

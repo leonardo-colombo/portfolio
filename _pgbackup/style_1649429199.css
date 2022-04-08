@@ -126,8 +126,6 @@
 @media only screen and (min-width:639px) and (max-width:767px) {
     .toolmask {
         height: 200px;
-        position: relative;
-        overflow: hidden;
     }
 
     h1 {
@@ -281,7 +279,7 @@
     }
 
     .weel {
-        width: 135vw;
+        width: 130vw;
         transform: translateX(-15vw);
     }
 }
