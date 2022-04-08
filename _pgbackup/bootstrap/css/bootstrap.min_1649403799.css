@@ -87,7 +87,7 @@ body {
 
 hr {
     margin: 1rem 0;
-    color: #ffffff;
+    color: #c5c5c5;
     background-color: currentColor;
     border: 0;
     height: 10px;
@@ -116,8 +116,8 @@ hr {
 
 .h1,
 h1 {
-    font-size: calc(2.78rem + 1.5vw);
-    color: #fffafa;
+    font-size: calc(3.08rem + 1.5vw);
+    color: #c5c5c5;
     font-weight: bolder;
 }
 
@@ -131,7 +131,7 @@ hr {
 .h2,
 h2 {
     font-size: calc(2.03rem + .9vw);
-    color: #ffffff;
+    color: #c5c5c5;
     text-align: right;
 }
 
@@ -180,7 +180,7 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-family: 'Sora', sans-serif;
-    color: #ffffff;
+    color: #c5c5c5;
     font-size: calc(0.9rem + 1.5vw);
 }
 
