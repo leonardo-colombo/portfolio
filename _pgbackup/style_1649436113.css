@@ -284,15 +284,5 @@
         width: 135vw;
         transform: translateX(-15vw);
     }
-
-    #footer h2 {
-        font-size: 2em;
-        float: right;
-    }
-
-    #footer h3 {
-        font-size: 2em;
-        float: left;
-    }
 }
 
